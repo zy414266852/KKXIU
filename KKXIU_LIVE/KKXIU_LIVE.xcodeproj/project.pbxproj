@@ -15,6 +15,8 @@
 		41B3FF711F39996A00793750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41B3FF6F1F39996A00793750 /* LaunchScreen.storyboard */; };
 		41B3FF7C1F39996A00793750 /* KKXIU_LIVETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B3FF7B1F39996A00793750 /* KKXIU_LIVETests.m */; };
 		41B3FF871F39996A00793750 /* KKXIU_LIVEUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B3FF861F39996A00793750 /* KKXIU_LIVEUITests.m */; };
+		41FE365C1F399E7100AE2854 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 41FE365B1F399E7100AE2854 /* Podfile */; };
+		A64DB8384FBD3D16105C2EDA /* libPods-KKXIU_LIVE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7124A2754D57C55EE2B6C740 /* libPods-KKXIU_LIVE.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		086773DF96DBC35C7401278D /* Pods-KKXIU_LIVE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKXIU_LIVE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KKXIU_LIVE/Pods-KKXIU_LIVE.debug.xcconfig"; sourceTree = "<group>"; };
+		2CA7B47A6CF5C4811B1D6D3D /* Pods-KKXIU_LIVE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKXIU_LIVE.release.xcconfig"; path = "Pods/Target Support Files/Pods-KKXIU_LIVE/Pods-KKXIU_LIVE.release.xcconfig"; sourceTree = "<group>"; };
 		41B3FF5E1F39996A00793750 /* KKXIU_LIVE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKXIU_LIVE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B3FF621F39996A00793750 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		41B3FF641F39996A00793750 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		41B3FF821F39996A00793750 /* KKXIU_LIVEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKXIU_LIVEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B3FF861F39996A00793750 /* KKXIU_LIVEUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKXIU_LIVEUITests.m; sourceTree = "<group>"; };
 		41B3FF881F39996A00793750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41FE365B1F399E7100AE2854 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		7124A2754D57C55EE2B6C740 /* libPods-KKXIU_LIVE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KKXIU_LIVE.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A64DB8384FBD3D16105C2EDA /* libPods-KKXIU_LIVE.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +92,8 @@
 				41B3FF7A1F39996A00793750 /* KKXIU_LIVETests */,
 				41B3FF851F39996A00793750 /* KKXIU_LIVEUITests */,
 				41B3FF5F1F39996A00793750 /* Products */,
+				5B350627ECF3886E5E31D733 /* Pods */,
+				88671C3648176F05DC9332E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +118,7 @@
 				41B3FF6D1F39996A00793750 /* Assets.xcassets */,
 				41B3FF6F1F39996A00793750 /* LaunchScreen.storyboard */,
 				41B3FF721F39996A00793750 /* Info.plist */,
+				41FE365B1F399E7100AE2854 /* Podfile */,
 				41B3FF611F39996A00793750 /* Supporting Files */,
 			);
 			path = KKXIU_LIVE;
@@ -140,6 +150,23 @@
 			path = KKXIU_LIVEUITests;
 			sourceTree = "<group>";
 		};
+		5B350627ECF3886E5E31D733 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				086773DF96DBC35C7401278D /* Pods-KKXIU_LIVE.debug.xcconfig */,
+				2CA7B47A6CF5C4811B1D6D3D /* Pods-KKXIU_LIVE.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		88671C3648176F05DC9332E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7124A2754D57C55EE2B6C740 /* libPods-KKXIU_LIVE.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41B3FF8B1F39996A00793750 /* Build configuration list for PBXNativeTarget "KKXIU_LIVE" */;
 			buildPhases = (
+				396391F370050CB6EDAFC95D /* [CP] Check Pods Manifest.lock */,
 				41B3FF5A1F39996A00793750 /* Sources */,
 				41B3FF5B1F39996A00793750 /* Frameworks */,
 				41B3FF5C1F39996A00793750 /* Resources */,
+				1720C53BFC28CF1F2B5D2161 /* [CP] Embed Pods Frameworks */,
+				AE23C9EC3883E8861CFF1C5C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +278,7 @@
 			files = (
 				41B3FF711F39996A00793750 /* LaunchScreen.storyboard in Resources */,
 				41B3FF6E1F39996A00793750 /* Assets.xcassets in Resources */,
+				41FE365C1F399E7100AE2854 /* Podfile in Resources */,
 				41B3FF6C1F39996A00793750 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +298,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1720C53BFC28CF1F2B5D2161 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KKXIU_LIVE/Pods-KKXIU_LIVE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		396391F370050CB6EDAFC95D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE23C9EC3883E8861CFF1C5C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KKXIU_LIVE/Pods-KKXIU_LIVE-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		41B3FF5A1F39996A00793750 /* Sources */ = {
@@ -424,6 +503,7 @@
 		};
 		41B3FF8C1F39996A00793750 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 086773DF96DBC35C7401278D /* Pods-KKXIU_LIVE.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KKXIU_LIVE/Info.plist;
@@ -435,6 +515,7 @@
 		};
 		41B3FF8D1F39996A00793750 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CA7B47A6CF5C4811B1D6D3D /* Pods-KKXIU_LIVE.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KKXIU_LIVE/Info.plist;
@@ -509,6 +590,7 @@
 				41B3FF8D1F39996A00793750 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41B3FF8E1F39996A00793750 /* Build configuration list for PBXNativeTarget "KKXIU_LIVETests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +599,7 @@
 				41B3FF901F39996A00793750 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41B3FF911F39996A00793750 /* Build configuration list for PBXNativeTarget "KKXIU_LIVEUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +608,7 @@
 				41B3FF931F39996A00793750 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
