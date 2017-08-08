@@ -15,7 +15,6 @@
 		41B3FF711F39996A00793750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41B3FF6F1F39996A00793750 /* LaunchScreen.storyboard */; };
 		41B3FF7C1F39996A00793750 /* KKXIU_LIVETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B3FF7B1F39996A00793750 /* KKXIU_LIVETests.m */; };
 		41B3FF871F39996A00793750 /* KKXIU_LIVEUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B3FF861F39996A00793750 /* KKXIU_LIVEUITests.m */; };
-		41FE365C1F399E7100AE2854 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 41FE365B1F399E7100AE2854 /* Podfile */; };
 		A64DB8384FBD3D16105C2EDA /* libPods-KKXIU_LIVE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7124A2754D57C55EE2B6C740 /* libPods-KKXIU_LIVE.a */; };
 /* End PBXBuildFile section */
 
@@ -55,7 +54,6 @@
 		41B3FF821F39996A00793750 /* KKXIU_LIVEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKXIU_LIVEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B3FF861F39996A00793750 /* KKXIU_LIVEUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKXIU_LIVEUITests.m; sourceTree = "<group>"; };
 		41B3FF881F39996A00793750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		41FE365B1F399E7100AE2854 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		7124A2754D57C55EE2B6C740 /* libPods-KKXIU_LIVE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KKXIU_LIVE.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -110,15 +108,16 @@
 		41B3FF601F39996A00793750 /* KKXIU_LIVE */ = {
 			isa = PBXGroup;
 			children = (
-				41B3FF641F39996A00793750 /* AppDelegate.h */,
-				41B3FF651F39996A00793750 /* AppDelegate.m */,
-				41B3FF671F39996A00793750 /* ViewController.h */,
-				41B3FF681F39996A00793750 /* ViewController.m */,
-				41B3FF6A1F39996A00793750 /* Main.storyboard */,
-				41B3FF6D1F39996A00793750 /* Assets.xcassets */,
-				41B3FF6F1F39996A00793750 /* LaunchScreen.storyboard */,
-				41B3FF721F39996A00793750 /* Info.plist */,
-				41FE365B1F399E7100AE2854 /* Podfile */,
+				41FE365D1F39A65E00AE2854 /* App */,
+				41FE365E1F39A67B00AE2854 /* Login */,
+				41FE365F1F39A69200AE2854 /* MainUI */,
+				41FE36611F39A6B500AE2854 /* Push */,
+				41FE36601F39A6A800AE2854 /* List */,
+				41FE36631F39A6C900AE2854 /* LinkMic */,
+				41FE36671F39A70A00AE2854 /* Resource */,
+				41FE36641F39A6DD00AE2854 /* UserInfo */,
+				41FE36651F39A6E800AE2854 /* Common */,
+				41FE36661F39A6F500AE2854 /* ThirdParty */,
 				41B3FF611F39996A00793750 /* Supporting Files */,
 			);
 			path = KKXIU_LIVE;
@@ -127,6 +126,12 @@
 		41B3FF611F39996A00793750 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				41B3FF671F39996A00793750 /* ViewController.h */,
+				41B3FF681F39996A00793750 /* ViewController.m */,
+				41B3FF6A1F39996A00793750 /* Main.storyboard */,
+				41B3FF6D1F39996A00793750 /* Assets.xcassets */,
+				41B3FF6F1F39996A00793750 /* LaunchScreen.storyboard */,
+				41B3FF721F39996A00793750 /* Info.plist */,
 				41B3FF621F39996A00793750 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -148,6 +153,78 @@
 				41B3FF881F39996A00793750 /* Info.plist */,
 			);
 			path = KKXIU_LIVEUITests;
+			sourceTree = "<group>";
+		};
+		41FE365D1F39A65E00AE2854 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				41B3FF641F39996A00793750 /* AppDelegate.h */,
+				41B3FF651F39996A00793750 /* AppDelegate.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		41FE365E1F39A67B00AE2854 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		41FE365F1F39A69200AE2854 /* MainUI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = MainUI;
+			sourceTree = "<group>";
+		};
+		41FE36601F39A6A800AE2854 /* List */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
+		41FE36611F39A6B500AE2854 /* Push */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Push;
+			sourceTree = "<group>";
+		};
+		41FE36631F39A6C900AE2854 /* LinkMic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = LinkMic;
+			sourceTree = "<group>";
+		};
+		41FE36641F39A6DD00AE2854 /* UserInfo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UserInfo;
+			sourceTree = "<group>";
+		};
+		41FE36651F39A6E800AE2854 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		41FE36661F39A6F500AE2854 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
+		41FE36671F39A70A00AE2854 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 		5B350627ECF3886E5E31D733 /* Pods */ = {
@@ -237,6 +314,7 @@
 				TargetAttributes = {
 					41B3FF5D1F39996A00793750 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HK2HSAE6BB;
 						ProvisioningStyle = Automatic;
 					};
 					41B3FF761F39996A00793750 = {
@@ -278,7 +356,6 @@
 			files = (
 				41B3FF711F39996A00793750 /* LaunchScreen.storyboard in Resources */,
 				41B3FF6E1F39996A00793750 /* Assets.xcassets in Resources */,
-				41FE365C1F399E7100AE2854 /* Podfile in Resources */,
 				41B3FF6C1F39996A00793750 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -506,9 +583,10 @@
 			baseConfigurationReference = 086773DF96DBC35C7401278D /* Pods-KKXIU_LIVE.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HK2HSAE6BB;
 				INFOPLIST_FILE = KKXIU_LIVE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "tiandejianye.KKXIU-LIVE";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kkxiu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -518,9 +596,10 @@
 			baseConfigurationReference = 2CA7B47A6CF5C4811B1D6D3D /* Pods-KKXIU_LIVE.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HK2HSAE6BB;
 				INFOPLIST_FILE = KKXIU_LIVE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "tiandejianye.KKXIU-LIVE";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kkxiu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
